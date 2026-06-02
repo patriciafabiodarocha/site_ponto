@@ -23,6 +23,17 @@ function Perfil() {
                   <div className="btn-lateral">Usuários</div>
                 </div>
               </div>
+                   <main className="conteudo-perfil">
+        <h1>Meu perfil</h1>
+
+        <section className="card-perfil">
+          <h2>Dados do usuário</h2>
+
+          <p><strong>Nome:</strong> Seu nome aqui</p>
+          <p><strong>Email:</strong> Seu e-mail aqui</p>
+          <p><strong>Cargo:</strong> Sua função aqui</p>
+        </section>
+      </main>
         </>
     )
 }

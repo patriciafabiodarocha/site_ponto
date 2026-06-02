@@ -234,3 +234,23 @@ code {
     .logo img{
       width: 180px;
     }
+
+    .card-perfil {
+  place-items: center;
+   max-width: 500px;
+  background-color: rgb(242, 255, 0);
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  }
+
+.card-perfil h2 {
+  
+  margin-bottom: 16px;
+}
+
+.card-perfil p {
+  
+  margin-bottom: 10px;
+  font-size: 16px;
+}
