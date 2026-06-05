@@ -3,6 +3,10 @@ function menuAnimation() {
   const btnMenu = document.querySelectorAll('.btnMenuMatheus');
   const profile = document.querySelector('.profile');
 
+  if (!profile) return;
+
+  profile.classList.add('active');
+
   btnMenu.forEach(link => {
 
     link.addEventListener('mouseover', (e) => {
