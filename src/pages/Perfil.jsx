@@ -1,39 +1,36 @@
 import { Link } from 'react-router-dom'
-import logoBranca from '../assets/cpe(branco).png'
+import logoPreta from '../assets/cpe(ponto).png'
+import menuAnimation from '../menuAnimation.js'
 
 function Perfil() {
+    menuAnimation();
     return (
         <>
-        <header>
-                <div className="box-topo">
-                  <Link to="/">
-                    <img src={logoBranca} alt="Logo" />
-                  </Link>
-                </div>
+        <header className="headerMatheus">
+          <div id="flex">
+          <nav className="navMatheus">
+            <div className="logoMatheus">
+                <Link to="/">
+                  <img src={logoPreta} alt="Logo"/>
+                </Link>
+            </div>
+
+            <div className="menuMatheus">
+              <Link to="/inicial" className="btnMenuMatheus">Inicial</Link>
+              <Link to="/registro" className="btnMenuMatheus">Registro</Link>
+              <Link to="/login" className="btnMenuMatheus">Login</Link>
+              <Link to="/perfil" className="btnMenuMatheus profile">Perfil</Link>
+            </div>
+          </nav>
+          </div>
+
+        <div id="flex">
+        <main className="usuarioMatheus">
+            <h2>Perfil do Usuário</h2>
+            <p>Bem-vindo ao seu perfil!</p>
+        </main>
+        </div>
         </header>
-              <div className="box-lateral">
-                <div className="container-lateral">
-                  <Link to="/inicial">
-                    <div className="btn-lateral">Home</div>
-                  </Link>
-                  <Link to="/perfil">
-                  <div className="btn-lateral">Perfil</div>
-                  </Link>
-                  <div className="btn-lateral">Horário</div>
-                  <div className="btn-lateral">Usuários</div>
-                </div>
-              </div>
-                   <main className="conteudo-perfil">
-        <h1>Meu perfil</h1>
-
-        <section className="card-perfil">
-          <h2>Dados do usuário</h2>
-
-          <p><strong>Nome:</strong> Seu nome aqui</p>
-          <p><strong>Email:</strong> Seu e-mail aqui</p>
-          <p><strong>Cargo:</strong> Sua função aqui</p>
-        </section>
-      </main>
         </>
     )
 }
