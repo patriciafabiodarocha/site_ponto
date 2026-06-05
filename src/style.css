@@ -45,6 +45,48 @@
     margin-top: 5px;
 }
 
+.navMatheus ul
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navMatheus ul li
+{
+  list-style: none;
+  position: relative;
+  transition: 0.5s;
+  display: block;
+}
+
+.navMatheus ul li ul
+{
+  display: none;
+}
+
+.navMatheus ul li:hover ul
+{
+  display: block;
+  position: absolute;
+  margin: 15px 0px 0px 0px;
+  padding: 10px 0px 10px 0px; 
+
+  background-color: #ffffff;
+  border-radius: 0px 0px 10px 10px;
+}
+
+#flex > nav > div.menuMatheus > ul > li > ul > li:first-child {
+    margin-bottom:20px;
+}
+
+#flex > nav > div.menuMatheus > ul > li > ul > li > a:hover {
+    background: none!important;
+    opacity: 0.7;
+}
+
+/* Profile */
+
 .usuarioMatheus {
     display: flex;
     flex-direction: column;
@@ -63,4 +105,47 @@
 .usuarioMatheus h2 {
     margin:0px 0px 20px 0px;
     font-size: 25pt;
+}
+
+/* Horário */
+
+.caixaMatheus {
+    background: #ffffff;
+    padding: 30px;
+    margin-top:13%;
+    border-radius: 10px;
+    border: solid #dedede 1px;
+    box-shadow: 4px 3px 12px -6px rgba(0,0,0,0.83);
+    width: 750px;
+
+    
+    color: #000000;
+}
+
+.caixaMatheus .ribbon {
+    background: rgb(255, 209, 0);
+    padding: 15px;
+    margin: -30px -30px 0px;
+    border-radius: 10px 10px 0px 0px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.caixaMatheus .conteudoHorario .primeiraLinha {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+
+    border-bottom: solid #a9a9a9 1px;
+    margin-top:10px;
+
+}
+
+.caixaMatheus .conteudoHorario .primeiraLinha span p {
+    font-size: 10pt;
+    font-weight: 500;
+    color: rgb(255, 209, 0);
+    margin-top:-5px;
 }
