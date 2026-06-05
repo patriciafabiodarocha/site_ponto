@@ -19,7 +19,7 @@ function Perfil() {
               <Link to="/inicial" className="btnMenuMatheus">Inicial</Link>
               <Link to="/registro" className="btnMenuMatheus">Registro</Link>
               <Link to="/login" className="btnMenuMatheus">Login</Link>
-              <Link to="/perfil" className="btnMenuMatheus profile">Perfil</Link>
+              <Link to="/perfil" className="btnMenuMatheus profile active">Perfil</Link>
             </div>
           </nav>
           </div>
