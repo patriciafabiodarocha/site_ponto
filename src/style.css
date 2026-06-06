@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); /* Fonts: roboto, roboto mono, libre bodoni */
+
 #flex {
     display: flex;
     justify-content: center;
@@ -97,14 +99,16 @@
     margin-top:13%;
     border-radius: 10px;
     border: solid #dedede 1px;
-    box-shadow: 4px 3px 12px -6px rgba(0,0,0,0.83)
+    box-shadow: 4px 3px 12px -6px rgba(0,0,0,0.83);
 
+    font-family: 'Roboto Mono', monospace;
 
 }
 
 .usuarioMatheus h2 {
     margin:0px 0px 20px 0px;
     font-size: 25pt;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Horário */
@@ -148,4 +152,78 @@
     font-weight: 500;
     color: rgb(255, 209, 0);
     margin-top:-5px;
+}
+
+/* Usuário */
+
+.userMatheus {
+    margin-top: 20px;
+}
+
+.userMatheus h2 {
+    text-align: center;
+    font-family: 'libre bodoni', serif;
+    color: rgb(255, 209, 0);
+    font-style:italic;
+    font-size: 25pt;
+    text-shadow: 2px 2px 5px #1b1a19;
+}
+
+.userMatheus input {
+    width: 500px;
+    height: 30px;
+    border: none;
+}
+
+.userMatheus button {
+    height: 32px;
+    padding: 5px;
+    border: none;
+}
+
+
+.userCaixaMatheus {
+    background: #ffffff;
+    padding: 30px;
+    margin-top:13%;
+    border-radius: 10px;
+    border: solid #dedede 1px;
+    box-shadow: 4px 3px 12px -6px rgba(0,0,0,0.83);
+    width: 750px;
+
+    
+    color: #000000;
+}
+
+.userCaixaMatheus .userRibbon {
+    background: rgb(255, 209, 0);
+    padding: 15px;
+    margin: -30px -30px 0px;
+    border-radius: 10px 10px 0px 0px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.userCaixaMatheus .userConteudoHorario .userPrimeiraLinha {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+
+    border-bottom: solid #a9a9a9 1px;
+    margin-top:10px;
+
+}
+
+.userCaixaMatheus .userConteudoHorario .userPrimeiraLinha span p {
+    font-size: 10pt;
+    font-weight: 500;
+    color: rgb(255, 209, 0);
+    margin-top:-5px;
+}
+
+.userConteudoHorario ul {
+    list-style: none;
+    padding: 0px;
 }
