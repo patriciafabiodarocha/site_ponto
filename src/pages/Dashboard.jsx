@@ -17,10 +17,14 @@ function Dashboard() {
             <div className="btn-lateral">Home</div>
           </Link>
           <Link to="/perfil">
-          <div className="btn-lateral">Perfil</div>
+            <div className="btn-lateral">Perfil</div>
           </Link>
-          <div className="btn-lateral">Horário</div>
-          <div className="btn-lateral">Usuários</div>
+          <Link to="/horario">
+            <div className="btn-lateral">Horário</div>
+          </Link>
+          <Link to="/usuario">
+            <div className="btn-lateral">Usuários</div>
+          </Link>
         </div>
       </div>
     </>
