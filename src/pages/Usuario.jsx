@@ -22,9 +22,9 @@ function Usuario() {
             <div className="menuMatheus">
                 <ul>
                     <li> <Link to="/inicial" className="btnMenuMatheus">Inicial</Link> </li>
-                    <li> <Link to="/perfil" className="btnMenuMatheus profile">Perfil </Link> </li>
+                    <li> <Link to="/perfil" className="btnMenuMatheus">Perfil </Link> </li>
                     <li><Link to="/horario" className="btnMenuMatheus">Horários</Link></li>
-                    <li><Link to="/usuario"className="btnMenuMatheus">Usuários</Link></li>
+                    <li><Link to="/usuario"className="btnMenuMatheus profile">Usuários</Link></li>
                 </ul>
        
             </div>
