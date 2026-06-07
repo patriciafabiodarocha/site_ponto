@@ -22,8 +22,6 @@ function Usuario() {
             <div className="menuMatheus">
         <ul>
              <li> <Link to="/inicial" className="btnMenuMatheus">Inicial</Link> </li>
-             <li> <Link to="/registro" className="btnMenuMatheus">Registro</Link> </li>
-             <li> <Link to="/login" className="btnMenuMatheus">Login</Link> </li>
             <li>
                 <Link to="/perfil" className="btnMenuMatheus profile">Perfil +</Link>
         <ul>
