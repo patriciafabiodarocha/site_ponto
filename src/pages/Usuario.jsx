@@ -20,16 +20,13 @@ function Usuario() {
             </div>
 
             <div className="menuMatheus">
-        <ul>
-             <li> <Link to="/inicial" className="btnMenuMatheus">Inicial</Link> </li>
-            <li>
-                <Link to="/perfil" className="btnMenuMatheus profile">Perfil +</Link>
-        <ul>
-          <li><Link to="/horario">Horários</Link></li>
-          <li><Link to="/usuario">Usuários</Link></li>
-        </ul>
-      </li>
-      </ul>
+                <ul>
+                    <li> <Link to="/inicial" className="btnMenuMatheus">Inicial</Link> </li>
+                    <li> <Link to="/perfil" className="btnMenuMatheus profile">Perfil </Link> </li>
+                    <li><Link to="/horario" className="btnMenuMatheus">Horários</Link></li>
+                    <li><Link to="/usuario"className="btnMenuMatheus">Usuários</Link></li>
+                </ul>
+       
             </div>
           </nav>
           </div>

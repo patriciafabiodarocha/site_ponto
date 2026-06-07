@@ -7,9 +7,7 @@ import Perfil from './pages/Perfil.jsx'
 import Horario from './pages/Horario.jsx'
 import Usuario from './pages/Usuario.jsx'
 
-// password mongoDB: Dr@gons&Fire
-// user mongoDB: grupo8_cpe
-// mongodb+srv://grupo8_cpe:<Dr@gons&Fire>@pontocpe.icta5yo.mongodb.net/?appName=pontoCPE
+
 
 function App() {
   return (
