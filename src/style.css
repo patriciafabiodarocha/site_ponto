@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); /* Fonts: roboto, roboto mono, libre bodoni */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 #flex {
     display: flex;
     justify-content: center;
 }
 
-.headerMatheus {
+.header {
     background-image: url("./assets/bg-gemini.png");
     background-size: cover;
     height: 100vh;
     width: 100%;
 }
 
-.navMatheus {
+.nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -25,7 +25,7 @@
     border-radius: 50px;
 }
 
-.navMatheus .menuMatheus a {
+.nav .menu a {
     color: black;
     text-decoration: none;
     margin: 0 40px;
@@ -36,25 +36,25 @@
     padding: 15px;
 }
 
-.navMatheus .menuMatheus a:hover, .navMatheus .menuMatheus a.active {
+.nav .menu a:hover, .nav .menu a.active {
     background-color: rgb(255, 209, 0);
     padding:15px;
     border-radius: 5px;
 }
 
-.navMatheus .logoMatheus img {
+.nav .logoPrincipal img {
     width: 150px;
     margin-top: 5px;
 }
 
-.navMatheus ul
+.nav ul
 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.navMatheus ul li
+.nav ul li
 {
   list-style: none;
   position: relative;
@@ -62,12 +62,12 @@
   display: block;
 }
 
-.navMatheus ul li ul
+.nav ul li ul
 {
   display: none;
 }
 
-.navMatheus ul li:hover ul
+.nav ul li:hover ul
 {
   display: block;
   position: absolute;
@@ -78,18 +78,18 @@
   border-radius: 0px 0px 10px 10px;
 }
 
-#flex > nav > div.menuMatheus > ul > li > ul > li:first-child {
+#flex > nav > div.menu > ul > li > ul > li:first-child {
     margin-bottom:20px;
 }
 
-#flex > nav > div.menuMatheus > ul > li > ul > li > a:hover {
+#flex > nav > div.menu > ul > li > ul > li > a:hover {
     background: none!important;
     opacity: 0.7;
 }
 
 /* Profile */
 
-.usuarioMatheus {
+.usuario {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,7 +105,7 @@
 
 }
 
-.usuarioMatheus h2 {
+.usuario h2 {
     margin:0px 0px 20px 0px;
     font-size: 25pt;
     font-family: 'Roboto', sans-serif;
@@ -113,7 +113,7 @@
 
 /* Horário */
 
-.caixaMatheus {
+.caixaHorario {
     background: #ffffff;
     padding: 30px;
     margin-top:13%;
@@ -126,7 +126,7 @@
     color: #000000;
 }
 
-.caixaMatheus .ribbon {
+.caixaHorario .ribbon {
     background: rgb(255, 209, 0);
     padding: 15px;
     margin: -30px -30px 0px;
@@ -136,7 +136,7 @@
     justify-content: space-around;
 }
 
-.caixaMatheus .conteudoHorario .primeiraLinha {
+.caixaHorario .conteudoHorario .primeiraLinha {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -147,7 +147,7 @@
 
 }
 
-.caixaMatheus .conteudoHorario .primeiraLinha span p {
+.caixaHorario .conteudoHorario .primeiraLinha span p {
     font-size: 10pt;
     font-weight: 500;
     color: rgb(255, 209, 0);
@@ -156,36 +156,36 @@
 
 /* Usuário */
 
-.userMatheus {
+.user {
     margin-top: 20px;
 }
 
-.userMatheus h2 {
+.user h2 {
     text-align: center;
     font-family: 'libre bodoni', serif;
     color: rgb(255, 209, 0);
     font-style:italic;
     font-size: 25pt;
-    text-shadow: 2px 2px 5px #1b1a19;
+    text-shadow: 2px 2px 5px rgb(27, 26, 25, 0.75);
 }
 
-.userMatheus input {
-    width: 500px;
+.user input {
+    width: 92%;
     height: 30px;
     border: none;
 }
 
-.userMatheus button {
+.user button {
     height: 32px;
     padding: 5px;
     border: none;
 }
 
 
-.userCaixaMatheus {
+.userCaixa {
     background: #ffffff;
     padding: 30px;
-    margin-top:13%;
+    margin-top:5%;
     border-radius: 10px;
     border: solid #dedede 1px;
     box-shadow: 4px 3px 12px -6px rgba(0,0,0,0.83);
@@ -195,7 +195,7 @@
     color: #000000;
 }
 
-.userCaixaMatheus .userRibbon {
+.userCaixa .userRibbon {
     background: rgb(255, 209, 0);
     padding: 15px;
     margin: -30px -30px 0px;
@@ -205,7 +205,7 @@
     justify-content: space-around;
 }
 
-.userCaixaMatheus .userConteudoHorario .userPrimeiraLinha {
+.userCaixa .userConteudoHorario .userPrimeiraLinha {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -216,7 +216,7 @@
 
 }
 
-.userCaixaMatheus .userConteudoHorario .userPrimeiraLinha span p {
+.userCaixa .userConteudoHorario .userPrimeiraLinha span p {
     font-size: 10pt;
     font-weight: 500;
     color: rgb(255, 209, 0);
@@ -226,4 +226,51 @@
 .userConteudoHorario ul {
     list-style: none;
     padding: 0px;
+}
+
+/* Dashboard / Inicial */
+
+.caixaInicial {
+    background: #ffffff;
+    padding: 30px;
+    margin-top:5%;
+    border-radius: 10px;
+    border: solid #dedede 1px;
+    box-shadow: 4px 3px 12px -6px rgba(0,0,0,0.83);
+    width: 750px;
+
+    
+    color: #000000;
+}
+
+.caixaInicial .ribbon {
+    background: rgb(255, 209, 0);
+    padding: 15px;
+    margin: -30px -30px 0px;
+    border-radius: 10px 10px 0px 0px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.caixaInicial .ribbon h2 {
+    font-family: "Playwrite GB J", cursive;
+    margin: auto!important;
+    letter-spacing: 1.5pt;
+}
+
+.secaoInicial {
+    width: 48%;
+    display: inline-grid;
+    text-align: justify;
+    padding:5px;
+}
+
+.secaoInicial:first-child {
+    border-right: dashed 1.5px #dcdcdc;
+    margin-right: 2px;
+}
+
+.secaoInicial:last-child {
+    margin-left: 2px;
 }

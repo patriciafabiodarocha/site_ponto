@@ -10,21 +10,21 @@ function Usuario() {
     
     return (
         <>
-        <header className="headerMatheus">
+        <header className="header">
           <div id="flex">
-          <nav className="navMatheus">
-            <div className="logoMatheus">
+          <nav className="nav">
+            <div className="logoPrincipal">
                 <Link to="/">
                   <img src={logoPreta} alt="Logo"/>
                 </Link>
             </div>
 
-            <div className="menuMatheus">
+            <div className="menu">
                 <ul>
-                    <li> <Link to="/inicial" className="btnMenuMatheus">Inicial</Link> </li>
-                    <li> <Link to="/perfil" className="btnMenuMatheus">Perfil </Link> </li>
-                    <li><Link to="/horario" className="btnMenuMatheus">Horários</Link></li>
-                    <li><Link to="/usuario"className="btnMenuMatheus profile">Usuários</Link></li>
+                    <li> <Link to="/inicial" className="btnMenu">Inicial</Link> </li>
+                    <li> <Link to="/perfil" className="btnMenu">Perfil </Link> </li>
+                    <li><Link to="/horario" className="btnMenu">Horários</Link></li>
+                    <li><Link to="/usuario"className="btnMenu profile">Usuários</Link></li>
                 </ul>
        
             </div>
@@ -32,14 +32,14 @@ function Usuario() {
           </div>
 
         <div id="flex">
-        <main className="userMatheus">
+        <main className="user">
         <h2>Gerenciamento de Usuários</h2>
         <input type="text" id="pesquisa" placeholder="Pesquisar..." /> <button>Buscar</button>
-            <div className="userCaixaMatheus">
+            <div className="userCaixa">
             <div className="userRibbon">
                 <span>Membro</span>
-                <span>Chegada</span>
-                <span>Tempo</span>
+                <span>Cargo</span>
+                <span>Usuário</span>
                 <span>Excluir</span>
             </div>
             
@@ -47,41 +47,41 @@ function Usuario() {
             <ul id="userLista">
                 <li>
             <div className="userPrimeiraLinha">
-                <span>Mariana <p>Desenvolvedor</p></span>
-                <span className="btnHora">08:00</span>
-                <span className="btnHora">2h 30m</span>
+                <span>Mariana</span>
+                <span>Desenvolvedor</span>
+                <span>Administrador</span>
                 <button className="btnExcluir">Excluir</button>
             </div>
                 </li>
                 <li>
             <div className="userPrimeiraLinha">
-                <span>João Silva <p>Desenvolvedor</p></span>
-                <span className="btnHora">08:00</span>
-                <span className="btnHora">2h 30m</span>
+                <span>João</span>
+                <span>Desenvolvedor</span>
+                <span>Comum</span>
                 <button className="btnExcluir">Excluir</button>
             </div>
                 </li>
                 <li>
             <div className="userPrimeiraLinha">
-                <span>João Silva <p>Desenvolvedor</p></span>
-                <span className="btnHora">08:00</span>
-                <span className="btnHora">2h 30m</span>
+                <span>Pedro</span>
+                <span>Comercial</span>
+                <span>Administrador</span>
                 <button className="btnExcluir">Excluir</button>
             </div>
                 </li>
                 <li>
             <div className="userPrimeiraLinha">
-                <span>João Silva <p>Desenvolvedor</p></span>
-                <span className="btnHora">08:00</span>
-                <span className="btnHora">2h 30m</span>
+                <span>Mariana</span>
+                <span>Desenvolvedor</span>
+                <span>Administrador</span>
                 <button className="btnExcluir">Excluir</button>
             </div>
                 </li>
                 <li>
             <div className="userPrimeiraLinha">
-                <span>João Silva <p>Desenvolvedor</p></span>
-                <span className="btnHora">08:00</span>
-                <span className="btnHora">2h 30m</span>
+                <span>Mariana</span>
+                <span>Desenvolvedor</span>
+                <span>Administrador</span>
                 <button className="btnExcluir">Excluir</button>
             </div>
                 </li>

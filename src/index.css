@@ -227,13 +227,14 @@ code {
       transform: scale(1.0);
     }
 
-      .logo{
+    .logo{
       margin-bottom: 20px;
     }
 
     .logo img{
       width: 180px;
     }
+    
 
     .card-perfil {
   place-items: center;

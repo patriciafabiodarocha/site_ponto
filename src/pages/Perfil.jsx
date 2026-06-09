@@ -10,28 +10,28 @@ function Perfil() {
 
     return (
         <>
-                <header className="headerMatheus">
+                <header className="header">
                   <div id="flex">
-                  <nav className="navMatheus">
-                    <div className="logoMatheus">
+                  <nav className="nav">
+                    <div className="logoPrincipal">
                         <Link to="/">
                           <img src={logoPreta} alt="Logo"/>
                         </Link>
                     </div>
         
-                    <div className="menuMatheus">
+                    <div className="menu">
                 <ul>
-                    <li> <Link to="/inicial" className="btnMenuMatheus">Inicial</Link> </li>
-                    <li> <Link to="/perfil" className="btnMenuMatheus profile">Perfil </Link> </li>
-                    <li><Link to="/horario" className="btnMenuMatheus">Horários</Link></li>
-                    <li><Link to="/usuario"className="btnMenuMatheus">Usuários</Link></li>
+                    <li> <Link to="/inicial" className="btnMenu">Inicial</Link> </li>
+                    <li> <Link to="/perfil" className="btnMenu profile">Perfil </Link> </li>
+                    <li><Link to="/horario" className="btnMenu">Horários</Link></li>
+                    <li><Link to="/usuario"className="btnMenu">Usuários</Link></li>
                 </ul>
                     </div>
                   </nav>
                   </div>
         
                 <div id="flex">
-                <main className="usuarioMatheus">
+                <main className="usuario">
                     <h2>Perfil do Usuário</h2>
                     <p>Bem-vindo ao seu perfil!</p>
                 </main>

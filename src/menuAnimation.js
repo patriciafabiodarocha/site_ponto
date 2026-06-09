@@ -1,6 +1,6 @@
 function menuAnimation() {
 
-  const btnMenu = document.querySelectorAll('.btnMenuMatheus');
+  const btnMenu = document.querySelectorAll('.btnMenu');
   const profile = document.querySelector('.profile');
 
   if (!profile) return;
